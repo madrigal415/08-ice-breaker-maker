@@ -1,0 +1,22 @@
+[
+    {
+        "id": 0,
+        "name": "Animal Joy",
+        "question": "What animal has been bringing you joy lately?"
+    },
+    {
+        "id": 1,
+        "name": "Food comfort",
+        "question": "What foods have been bringing you comfort lately?"
+    },
+    {
+        "id": 2,
+        "name": "Plant Joy",
+        "question": "What play has been bringing you joy lately?"
+    },
+    {
+        "id": 3,
+        "name": "Non-human Living Joy",
+        "question": "What non-human living thing has been bringing you joy lately?"
+    }
+]

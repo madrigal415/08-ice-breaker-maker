@@ -1,0 +1,57 @@
+body {
+    min-height: 100%;
+    display: grid;
+    /* grid-template-rows: 30vh 30vh; */
+    align-items: end;
+    background: papayawhip;
+    font-family: helvetica;
+  }
+
+  #main {
+    padding: 0 20vw;
+  }
+
+  h1 {
+    color: tomato;
+    background: cornsilk;
+    text-align: center;
+  }
+
+  #quoteInfo {
+    border: cornsilk 5px;
+    font-size: 3em;
+    display: grid;
+  }
+
+  button {
+    height: 7em;
+    width: 7em;
+    border-radius: 50%;
+    background: tomato;
+    color: ghostwhite;
+    font-weight: bolder;
+    border: none;
+  }
+
+  button:hover {
+    transform: scale(1.1);
+    opacity: .9;
+    cursor:pointer;
+  }
+
+  #footer {
+    background: cornsilk;
+    color: slate;
+    padding: 20vh 10vw 0 10vw;
+    margin: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+
+.grow:hover {
+    transform: scale(1.1); 
+}
