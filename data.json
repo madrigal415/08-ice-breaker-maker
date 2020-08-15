@@ -18,5 +18,35 @@
         "id": 3,
         "name": "Non-human Living Joy",
         "question": "What non-human living thing has been bringing you joy lately?"
+    },
+    {
+        "id": 4,
+        "name": "Name origin",
+        "question": "Where did your name come from?"
+    },
+    {
+        "id": 5,
+        "name": "Inspiring teacher",
+        "question": "Who was a teacher that inspired you?"
+    },
+    {
+        "id": 6,
+        "name": "Secret talent",
+        "question": "What is a secret talent of yours not related to your profession?"
+    },
+    {
+        "id": 7,
+        "name": "Name origin",
+        "question": "Where did your name come from?"
+    },
+    {
+        "id": 8,
+        "name": "Inspiring teacher",
+        "question": "Who was a teacher that inspired you?"
+    },
+    {
+        "id": 9,
+        "name": "Secret talent",
+        "question": "What is a secret talent of yours not related to your profession?"
     }
 ]
