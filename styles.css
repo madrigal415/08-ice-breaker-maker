@@ -126,7 +126,7 @@ button:focus {
 @media screen and (max-width: 600px) {
 
   #main {
-    grid-template-rows: 30px 5fr auto;
+    grid-template-rows: 30px 5fr 50px;
     font-size:calc(4px + 1vw + 1vh);
   }
 
