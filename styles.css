@@ -4,6 +4,7 @@ body {
     background: #b2f9ff; background: -moz-linear-gradient(315deg,  #b2f9ff 0%,#efebbe 100%); background: -webkit-linear-gradient(315deg,  #b2f9ff 0%,#efebbe 100%); background: linear-gradient(315deg,  #b2f9ff 0%,#efebbe 100%);
     font-family:perpetua;
     color:teal;
+    margin:0;
 
   }
 
@@ -51,7 +52,6 @@ details {
 
 #quoteInfo {
     display: grid;
-    grid-gap:calc(4px + .5vh);
     grid-row:2/3;
     grid-column:2/4;
     justify-content:center;
@@ -65,16 +65,14 @@ details {
    align-self:center;
    border-top: double 4px rgba(0,146,146,.1);
    font-size: calc(5px + 3vh + 3vw);
-   padding:   calc(7px + 1.5vh + 1.5vw) 0 calc(7px + 1vh + 1vw) 0 ;
+   padding:  5px 10px;
+   margin:0;
 }
 
 .oneQ:nth-child(1){
   border-top: none;
 }
 
-p {
-  margin:0;
-}
 
 
 button {
@@ -84,8 +82,8 @@ button {
     align-content:center;
     font-weight: bolder;
     border: none;
-    margin:10px;
-    min-height: 5em;
+
+    padding: 10px;
     font-size: 20px;
     color:teal;
     font-family:perpetua;
@@ -98,6 +96,10 @@ button {
     transform: scale(1.1);
     opacity: .9;
     cursor:pointer;
+  }
+
+button:focus {
+    outline:none;
   }
 
 .grow { 
@@ -124,26 +126,32 @@ button {
 @media screen and (max-width: 600px) {
 
   #main {
-    grid-template-rows: 40px 20px 1fr 20px;
+    grid-template-rows: 30px 5fr auto;
+    font-size:calc(4px + 1vw + 1vh);
   }
+
   #filter {
-    grid-row:2/3;
-    grid-column:1/5;
     display:none;
   }
 
   #quoteInfo {
-    grid-row:3/4;
+    grid-row:2/3;
     align-content:center;
     align-items:start;
+    margin:0;
+    padding:0;
+  }
+
+  .oneQ {
+    font-size:calc(10px + 3vh + 3vw);
   }
 
   #previous{
-    grid-row:5/6;
+    grid-row:3/4;
     grid-column:2/3;
 }
     #next{
-      grid-row:5/6;
+    grid-row:3/4;
     grid-column:3/4;
 }
 }
