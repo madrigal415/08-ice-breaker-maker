@@ -32,7 +32,7 @@ h1 {
 }
 
 #filter {
-    display:grid;
+    display:none;
     grid-column:4/5;
     grid-row:1/2;
     justify-self: end;
