@@ -7,33 +7,50 @@
 
   <title>ice breaker maker website</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="#">
 
 </head>
 
-<body onload="getQuestion()">
+<body>
 
 
-  <div id="header">
-    <h1>THE ICEBREAKER MAKER</h1>
-    <form action="
-    "></form>
+
+
   </div>
 
   <div id="main">
+    <div id="header">
+      <h1>THE ICEBREAKER MAKER</h1>
 
-    <div>
-      <button class="grow" id="button">get question</button>
     </div>
 
+    <div id="filter">
+      <details>
+        <summary>☰</summary>
+        <label for="number-select"># of Q's</label>
+
+        <select name="number" id="num-select">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+
+        </select>
+      </details>
+
+
+    </div>
     <div id="quoteInfo"></div>
 
+    <button class="grow" id="previous">previous</button>
+
+    <button class="grow" id="next">next</button>
+
   </div>
 
-  <div id="footer">
-    <a href="/">back to home</a>
-  </div>
 
-  <script type="text/javascript" src="script.js"></script>
+
+  <!-- <script src="/scripts/shuffler.mjs"></script> -->
+  <script src="/scripts/main.js" type="module"></script>
 
 </body>
 
