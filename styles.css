@@ -127,7 +127,7 @@ button:focus {
 
   #main {
     grid-template-rows: 30px 5fr 50px;
-    font-size:calc(4px + 1vw + 1vh);
+    font-size:calc(4px + 1vh);
   }
 
   #filter {

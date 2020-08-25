@@ -110,8 +110,23 @@
         "question": "What was a memorable pair of shoes/footwear from childhood?"
     },
     {
-        "id": 21,
-        "name": "Childhood shoes",
-        "question": "What was a memorable pair of shoes/footwear from childhood?"
+        "id": 22,
+        "name": "Family describes",
+        "question": "How would your closest family members describe you?"
+    },
+    {
+        "id": 23,
+        "name": "Parent lessons",
+        "question": "What do you wish your parents had told you?"
+    },
+    {
+        "id": 24,
+        "name": "Fav performance",
+        "question": "What was a live performance or show you really loved, and why?"
+    },
+    {
+        "id": 25,
+        "name": "Animal Battle",
+        "question": "What animal, either magical or non-magical, would you ride in to battle?"
     }
 ]
