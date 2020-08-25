@@ -47,12 +47,12 @@
     {
         "id": 9,
         "name": "Moving out",
-        "question": "If you had to move to another country for five years, what county would you pick?"
+        "question": "If you had to move to another country for five years, what country would you pick?"
     },
     {
         "id": 10,
         "name": "Unlimited supply",
-        "question": "If you had an unlimited supply of one thing for the rest of your life, what would you pick? [No you can't sell it]"
+        "question": "If you had an unlimited supply of one thing for the rest of your life, what would you pick?</br> [No selling!]"
     },
     {
         "id": 11,
@@ -72,7 +72,7 @@
     {
         "id": 14,
         "name": "Inspiring teacher",
-        "question": "It's the zombie apocalypse and you get to pick two famous people from history (dead or alive) to join your survival squad. Who do you pick?"
+        "question": "It's the zombie apocalypse and you get to pick two famous people (dead or alive) to join your squad. Who do you pick?"
     },
     {
         "id": 15,
@@ -122,11 +122,11 @@
     {
         "id": 24,
         "name": "Fav performance",
-        "question": "What was a live performance or show you really loved, and why?"
+        "question": "What was a live performance you really loved, and why?"
     },
     {
         "id": 25,
         "name": "Animal Battle",
-        "question": "What animal, either magical or non-magical, would you ride in to battle?"
+        "question": "What animal, magical or non-magical, would you ride in to battle?"
     }
 ]

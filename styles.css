@@ -126,8 +126,11 @@ button:focus {
 @media screen and (max-width: 600px) {
 
   #main {
-    grid-template-rows: 30px 5fr 50px;
+    grid-template-rows: auto 1fr 50px 50px;
     font-size:calc(4px + 1vh);
+    height:100%;
+    margin:0;
+    padding:0;
   }
 
   #filter {
@@ -149,6 +152,7 @@ button:focus {
   #previous{
     grid-row:3/4;
     grid-column:2/3;
+
 }
     #next{
     grid-row:3/4;
