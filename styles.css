@@ -139,11 +139,11 @@ button:focus {
     align-content:center;
     align-items:start;
     margin:auto;
-    padding:auto;
+    padding:10px;
   }
 
   .oneQ {
-    font-size:calc(10px + 4vh + 3vw);
+    font-size:calc(10px + 3vh + 3vw);
   }
 
   #previous{
