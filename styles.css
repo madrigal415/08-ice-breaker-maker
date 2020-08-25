@@ -138,12 +138,12 @@ button:focus {
     grid-row:2/3;
     align-content:center;
     align-items:start;
-    margin:0;
-    padding:0;
+    margin:auto;
+    padding:auto;
   }
 
   .oneQ {
-    font-size:calc(10px + 3vh + 3vw);
+    font-size:calc(10px + 4vh + 3vw);
   }
 
   #previous{
