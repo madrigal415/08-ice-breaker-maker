@@ -111,7 +111,7 @@ button:focus {
 
   #main {
     grid-template-columns: 5vw 1fr 1fr 5vw;
-    grid-template-rows: 80px minmax(auto,4fr) 1fr;
+    grid-template-rows: 80px minmax(auto,calc(65vh - 80px)) 1fr;
     font-size:calc(4px + 1.5vw);
     align-items:center;
     grid-gap:5vh;
