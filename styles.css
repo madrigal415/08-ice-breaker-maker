@@ -1,11 +1,20 @@
 body {
-    display: grid;
-    align-items: end;
     background: #b2f9ff; background: -moz-linear-gradient(315deg,  #b2f9ff 0%,#efebbe 100%); background: -webkit-linear-gradient(315deg,  #b2f9ff 0%,#efebbe 100%); background: linear-gradient(315deg,  #b2f9ff 0%,#efebbe 100%);
     font-family:perpetua;
     color:teal;
+  height:100vh;
+  margin:0;
+}
 
-  }
+
+#main {
+      display:grid;
+      grid-template-columns: 20vw 1fr 1fr 20vw;
+      grid-template-rows: 80px auto 1fr;
+      align-content:stretch;
+      justify-content:stretch;
+      height:100%;
+}
 
 #header {
   display:grid;
@@ -13,25 +22,13 @@ body {
   grid-column:1/5;
   justify-items:center;
   align-content:center;
+  font-size: calc(.1em+4vw);
+  text-shadow:2px 2px 5px rgba(0,0,0,.2);
+  opacity:.3;
+  padding:5px;
 }
 
-h1 {
-    font-size: calc(.1em+4vw);
-    text-shadow:2px 2px 5px rgba(0,0,0,.2);
-    opacity:.3;
-    margin-bottom:0;
 
-}
-
-#main {
-    display:grid;
-    grid-template-columns: 20vw 1fr 1fr 20vw;
-    grid-template-rows: 80px 1fr auto;
-    border-radius:2em;
-    align-content:center;
-    justify-content:stretch;
-    min-height:100vh;
-}
 
 #filter {
     display:none;
@@ -51,16 +48,17 @@ details {
 
 #quoteInfo {
     display: grid;
-    grid-row:2/3;
+    grid-row:2/4;
     grid-column:2/4;
-    justify-content:center;
-    align-content:center;
-    padding: 0 5vw;
+    align-items:stretch;
+    font-size:calc(16px + 1vh + 3vw);
+
 }
 
 .oneQ {
    text-align:center;
-   font-size:calc(16px + 2vh + 4vw);
+
+   margin:auto;
 }
 
 button {
@@ -70,12 +68,17 @@ button {
     font-family:perpetua;
     justify-self:center;
     background:none;
+    height: 20px;
+    width:20px;
+    margin:auto;
   }
 
  button:hover {
     transform: scale(1.1);
     opacity: .9;
     cursor:pointer;
+    height: 20px;
+    width:20px;
   }
 
 button:focus {
@@ -93,8 +96,10 @@ button:focus {
 }
 
 #previous {
+  display:grid;
   grid-row: 2/4;
   grid-column: 1/2;
+  align-items:end;
   transform:rotate(180deg);
 }
 
@@ -108,11 +113,10 @@ button:focus {
 
   #main {
     grid-template-columns: 5vw 1fr 1fr 5vw;
-    grid-template-rows: 50px 1fr auto;
+    grid-template-rows: 80px minmax(auto,4fr) 1fr;
     font-size:calc(4px + 1.5vw);
-
-    margin:0;
-    padding:0;
+    align-items:center;
+    grid-gap:5vh;
   }
   #header {
     grid-row: 1/2;
@@ -124,11 +128,14 @@ button:focus {
 
   #quoteInfo {
     grid-row:2/3;
+    font-size:calc(4px + 10vw);
+
   }
 
   button {
-    min-height:100px;
-    margin:5px:
+    display:grid;
+    margin:5px;
+    align-self:start;
   }
 
   #previous{
