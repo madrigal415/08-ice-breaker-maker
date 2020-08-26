@@ -60,12 +60,11 @@ details {
 
 .oneQ {
    text-align:center;
-   font-size:calc(10px + 3vh + 3vw);
+   font-size:calc(16px + 2vh + 4vw);
 }
 
 button {
     border: none;
-    padding: 10px;
     font-size: calc(10px + 2vw + 1vh);
     color:teal;
     font-family:perpetua;
@@ -108,9 +107,10 @@ button:focus {
 @media screen and (max-width: 600px) {
 
   #main {
+    grid-template-columns: 5vw 1fr 1fr 5vw;
     grid-template-rows: 50px 1fr auto;
-    font-size:calc(4px + 1vh);
-    height:100%;
+    font-size:calc(4px + 1.5vw);
+
     margin:0;
     padding:0;
   }
