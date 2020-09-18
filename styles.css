@@ -128,11 +128,6 @@ details {
   justify-items:stretch;
 }
 
-#input:focus {
-  outline:auto lightseagreen;
-  background:lightseagreen;
-}
-
 h2 {
   display:grid;
   font-size: calc(.1em + 2vw);
@@ -157,13 +152,14 @@ textarea {
   padding: 10px;
   color:teal;
   font-family:perpetua;
+  font-size: calc(4vw + 3vh);
 }
 
 textarea:focus{
   outline-style:none;
   border:none;
   padding:10px;
-  font-size: calc(4vw + 3vh);
+
 }
 
 #submit {
