@@ -10,7 +10,7 @@ body {
 #main {
       display:grid;
       grid-template-columns: 20vw 1fr 1fr 20vw;
-      grid-template-rows: 80px auto 1fr;
+      grid-template-rows: 75px minmax(auto,1fr) 100px;
       align-content:stretch;
       justify-content:stretch;
       height:100%;
@@ -22,9 +22,9 @@ body {
   grid-column:1/5;
   justify-items:center;
   align-content:center;
-  font-size: calc(.1em+4vw);
+  font-size: calc(.5em + 1vw);
   text-shadow:2px 2px 5px rgba(0,0,0,.2);
-  opacity:.3;
+  /* opacity:.3; */
   padding:5px;
 }
 
@@ -46,9 +46,9 @@ details {
     list-style-type: none;
 }
 
-#quoteInfo {
+.content{
     display: grid;
-    grid-row:2/4;
+    grid-row:2/3;
     grid-column:2/4;
     align-items:stretch;
     font-size:calc(16px + 1vh + 3vw);
@@ -61,7 +61,7 @@ details {
    margin:auto;
 }
 
-button {
+.navButton {
     border: none;
     font-size: calc(10px + 2vw + 1vh);
     color:teal;
@@ -73,7 +73,7 @@ button {
     margin:auto;
   }
 
- button:hover {
+ .navButton:hover {
     transform: scale(1.1);
     opacity: .9;
     cursor:pointer;
@@ -81,7 +81,7 @@ button {
     width:20px;
   }
 
-button:focus {
+.navButton:focus {
     outline:none;
   }
 
@@ -98,13 +98,75 @@ button:focus {
 
 #previous {
   display:grid;
-  grid-row: 2/4;
+  grid-row: 2/3;
   grid-column: 1/2;
 }
 
 #next {
-  grid-row: 2/4;
+  grid-row: 2/3;
   grid-column: 4/5;
+}
+
+#footer {
+  display:grid;
+  place-items:center;
+  grid-row: 3/4;
+  grid-column: 1/5;
+  padding: 10px;
+  
+}
+
+#footer a{
+  color: teal;
+  font-size: 20px;
+}
+
+
+.form {
+  display:grid;
+  place-content:center;
+  justify-items:center;
+}
+
+h2 {
+  display:grid;
+  font-size: calc(.1em + 2vw);
+  color: white;
+  background:teal;
+  margin-bottom:0;
+  padding:12px 0 10px 20px;
+  border-radius: 10px 10px 0 0 ;
+}
+
+label input {
+  width:100%;
+  height: calc(20vh + 10vw);
+  min-height:100px;
+  border-style:solid;
+  border:none;
+  border-radius: 0 0 10px 10px;
+}
+
+#submit {
+  display: grid;
+  justify-items: end;
+  align-items:end;
+  padding: 10px 0;
+}
+
+button {
+  background:teal;
+  color:white;
+  min-height:30px;
+  border:none;
+  border-radius:5px;
+  font-size: calc(.3em + .1vw);
+  padding: 3px 20px;
+  font-family:perpetua;
+}
+
+button:hover {
+  cursor:pointer;
 }
 
 /* On screens that are 600px or less, set the background color to olive */
@@ -125,12 +187,12 @@ button:focus {
     display:none;
   }
 
-#quoteInfo {
+.content{
     grid-row:2/3;
     font-size:calc(4px + 10vw);
 }
 
-button {
+.navButton{
     display:grid;
     margin:5px;
     align-self:start;
@@ -144,4 +206,7 @@ button {
     grid-row:3/4;
     grid-column:3/4;
 }
+
 }
+
+
