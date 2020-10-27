@@ -6,7 +6,9 @@ features
 -
 -
 -
-- 
+- questions from the NY Times Blog ["36 questions that lead to love"](hhttps://www.nytimes.com/2015/02/13/style/the-36-questions-on-the-way-to-love.html)
+-  
+
 
 tasks
 1. 
