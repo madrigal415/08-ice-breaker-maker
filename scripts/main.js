@@ -19,7 +19,6 @@ function makeQuote(data) {
 
 }
 let dataUrl = './data.json';
-// dataUrl = 'https://gist.githubusercontent.com/madrigal415/424e18ac9f92b34cfdfb6c1adc4ec284/raw/bff15332dd6d9286471b81d60dc83526817c43be/IcebreakerMaker.json';
 
 // run function on button click
 const quoteInfo = document.getElementById("quoteInfo");
