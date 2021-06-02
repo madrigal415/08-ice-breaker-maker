@@ -3,13 +3,6 @@ import { shuffle } from './shuffler.js';
 // function to generate and place random quote
 function makeQuote(data) {
 
-    // if (quoteInfo.state.count === quoteInfo.state.length) {
-    //     console.log('FLAGGG!!!');
-    //     quoteInfo.state.count = 0;
-    // } else if (quoteInfo.state.count < 0) {
-    //     quoteInfo.state.count = quoteInfo.state.length - 1;
-    // }
-
     const indexStart = quoteInfo.state.count;
     const numberQ = Number(numberSelection.value);
 
@@ -40,38 +33,25 @@ quoteInfo.state = {
     length: 0,
     decrement: () => {
         quoteInfo.state.count -= 1 * Number(numberSelection.value);
-        // quoteInfo.state.count < 0 ? quoteInfo.state.length - 1 : quoteInfo.state.count;
         quoteInfo.state.count % quoteInfo.state.length - 1;
-        console.log('MODulo', Math.abs(quoteInfo.state.count) % quoteInfo.state.length - 1);
         if (quoteInfo.state.count < 0) {
             quoteInfo.state.count = (quoteInfo.state.length) - numberSelection.value;
         }
     },
     increment: () => {
-        console.log('HIIIII');
-
         quoteInfo.state.count += 1 * Number(numberSelection.value);
-        console.log('MODulo', Math.abs(quoteInfo.state.count) % quoteInfo.state.length - 1);
-        // quoteInfo.state.count = (quoteInfo.state.count = quoteInfo.state.length) ? 0 : 100;
-        // if (quoteInfo.state.count = quoteInfo.state.length) {
-        //     quoteInfo.state.reset();
-        // }
 
     }
 };
 
 buttonPrevious.addEventListener("click", function () {
-    console.log(quoteInfo.state.count);
     quoteInfo.state.decrement(); // add one to the index
-    console.log(quoteInfo.state.count);
     getJson(Number(numberSelection.value), quoteInfo.state.count);
 });
 
 buttonNext.addEventListener("click", function () {
 
     quoteInfo.state.increment(); // add one to the index
-    console.log(quoteInfo.state.count);
-    console.log(quoteInfo.state.length);
     getJson(Number(numberSelection.value), quoteInfo.state.count);
 });
 
@@ -106,12 +86,3 @@ function getJson() {
     quoteInfo.state.length = parsedData.length; // set app state length 
     makeQuote(parsedData);
 }
-// var testObject = { 'one': 1, 'two': 2, 'three': 3 };
-
-// // Put the object into storage
-// localStorage.setItem('testObject', JSON.stringify(testObject));
-
-// // Retrieve the object from storage
-// var retrievedObject = localStorage.getItem('testObject');
-
-// console.log('retrievedObject: ', JSON.parse(retrievedObject));
