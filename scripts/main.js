@@ -18,8 +18,6 @@ function makeQuote(data) {
     for (let i = indexStart; i < numberQ + indexStart; i++) {
 
         let modulo = i % quoteInfo.state.length;
-        console.log('i ', i);
-        console.log('M ', modulo);
         let q = data[modulo];
         quote += `<p class="oneQ">${q.question}</p>`;
     }
