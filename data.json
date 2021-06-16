@@ -488,5 +488,61 @@
         "name": "Hawaiian pizza",
         "question": "Pineapple on pizza, yes or no?",
         "depth": 1
+    },
+    {
+        "id": 97,
+        "name": "Terrible",
+        "question": "What are you really terrible at?",
+        "depth": 1
+    },
+,
+    {
+        "id": 98,
+        "name": "Proud",
+        "question": "What is something you are proud of but don't get to brag about much?",
+        "depth": 1
+    },
+    {
+        "id: 99,
+        "name": "Hawaiian pizza",
+        "question": "Pineapple on pizza, yes or no?",
+        "depth": 1
+    },
+    {
+        "id": 100,
+        "name": "Best thing",
+        "question": "What's the best thing to happen to you today?",
+        "depth": 1
+    },
+    {
+        "id": 101,
+        "name": "Books or movies",
+        "question": "Have you read any good books, or seen any good movies lately?",
+        "depth": 1
+    },
+    {
+        "id": 102,
+        "name": "Talk about",
+        "question": "What could you talk about for hours?",
+        "depth": 1
+    },
+    {
+        "id": 103,
+        "name": "Dreams",
+        "question": "What do you dream about?",
+        "depth": 1
+    },
+    {
+        "id": 104,
+        "name": "Two facts",
+        "question": "What are two facts about you that are both true, but also seem contradictory?",
+        "depth": 2
+    },
+    {
+        "id": 105,
+        "name": "Life story",
+        "question": "What is your life story in 30 seconds?",
+        "depth": 2
     }
+
 ]
