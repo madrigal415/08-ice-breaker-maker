@@ -542,5 +542,29 @@
     "name": "Life story",
     "question": "What is your life story in 30 seconds?",
     "depth": 2
+  },
+  {
+    "id": 106,
+    "name": "Underrated snack",
+    "question": "What is the most underrated snack?",
+    "depth": 2
+  },
+  {
+    "id": 107,
+    "name": "Best bad tv",
+    "question": "What is the best bad tv show?",
+    "depth": 2
+  },
+  {
+    "id": 108,
+    "name": "Not interesting",
+    "question": "What is the least interesting thing about you?",
+    "depth": 2
+  },
+  {
+    "id": 109,
+    "name": "Fictional town",
+    "question": "If you had to live in one fictional town (from books/movies/TVs), where would it be?",
+    "depth": 2
   }
 ]
